@@ -28,7 +28,7 @@ export class AuthService {
     const URL =  `${this.baseUrl}/auth`;
     const body = {id, pass};
 
-    
+    return this.http.post(URL, body);
   }
 
   validateToken() {
