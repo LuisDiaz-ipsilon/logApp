@@ -15,7 +15,3 @@ No es necesario clonar este repositorio en tu disco local.
 Ante cualquier duda con gusto puedo apoyarte. Mi contacto en Slack: U01NX9MPH26 y mi correo: fernando.floresdz@uanl.edu.mx
 Te deseo lo mejor en esta capacitacion.
 
-
-
-
-git remote add Log-Test https://github.com/LuisDiaz-ipsilon/Log-Test.git
