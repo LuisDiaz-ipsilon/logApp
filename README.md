@@ -8,7 +8,7 @@ En caso de que quieran revisar commit video por video cambien a al branch 'dev-v
 
 ## Videos :a:
 
-Los videos en donde se desarrolla esta aplicaciones estan en una lista en [youtube](https://www.youtube.com/watch?v=zZg0a6jJKRM&list=PLxWBQOfSryFCvMQZdMQWZkyLI8nsSag7V)
+Los videos en donde se desarrolla esta aplicaciones estan en una [lista en youtube](https://www.youtube.com/watch?v=zZg0a6jJKRM&list=PLxWBQOfSryFCvMQZdMQWZkyLI8nsSag7V)
 
 No es necesario clonar este repositorio en tu disco local.
 
