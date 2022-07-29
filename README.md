@@ -6,7 +6,7 @@ Este repositorio contiene la aplicacion LogApp
 
 En caso de que quieran revisar commit video por video cambien a al branch 'dev-video'
 
-## Videos :a:
+## Videos :movie_camera:
 
 Los videos en donde se desarrolla esta aplicaciones estan en una [lista en youtube](https://www.youtube.com/watch?v=zZg0a6jJKRM&list=PLxWBQOfSryFCvMQZdMQWZkyLI8nsSag7V)
 
