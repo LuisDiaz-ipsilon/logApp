@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
 #bg {
   background-image: url('./images/background_CAN.jpg');
   position: fixed;
@@ -127,4 +128,5 @@ form .btn-sec {
   
   font-size: 35px;
 }
+
 

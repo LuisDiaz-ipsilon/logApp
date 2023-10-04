@@ -1,0 +1,57 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    z-index: 100; /* Se esta manera el header estara por encima de todo elemento HTML */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Agrega un margen superior al cuerpo para evitar que el contenido se superponga con el encabezado fijo */
+body {
+    margin-top: 10px; /* Ajusta según el alto de tu encabezado */
+}
