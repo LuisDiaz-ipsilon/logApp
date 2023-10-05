@@ -4,7 +4,7 @@ header {
     padding: 10px 0;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0; 
     width: 100%; /* Ocupa todo el ancho de la pantalla */
     z-index: 100; /* Se esta manera el header estara por encima de todo elemento HTML */
 }

@@ -5,10 +5,11 @@ import { ProtectedAppRoutingModule } from './protected-app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { ProtectedAppContainerComponent } from './protected-app-container/protected-app-container.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
-  declarations: [DashboardComponent, HeaderComponent, ProtectedAppContainerComponent],
+  declarations: [DashboardComponent, HeaderComponent, ProtectedAppContainerComponent, CarouselComponent],
   imports: [
     CommonModule,
     ProtectedAppRoutingModule
