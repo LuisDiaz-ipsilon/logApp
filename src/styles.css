@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
 #bg {
   background-image: url('./images/background_CAN.jpg');
   position: fixed;
@@ -14,11 +15,6 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #4A4A4A;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -27,6 +23,7 @@ form {
   width: 350px;
   position: relative;
 }
+
 form .form-field::before {
   font-size: 20px;
   position: absolute;
@@ -38,17 +35,20 @@ form .form-field::before {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 form .form-field:nth-child(1)::before {
   background-image: url('./images/user-icon.png');
   width: 20px;
   height: 20px;
   top: 15px;
 }
+
 form .form-field:nth-child(2)::before {
   background-image: url('./images/lock-icon.png');
   width: 16px;
   height: 16px;
 }
+
 form .form-field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,6 +62,7 @@ form .form-field {
   margin-bottom: 1rem;
   position: relative;
 }
+
 form input {
   font-family: inherit;
   width: 100%;
@@ -76,6 +77,7 @@ form input {
   color: #4A4A4A;
   text-indent: 40px;
 }
+
 form .btn {
   outline: none;
   border: none;
@@ -92,18 +94,18 @@ form .btn {
 }
 
 form .btn-sec {
-    outline: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0.9rem 2.5rem;
-    text-align: center;
-    background-color: #fa824b;
-    color: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    font-size: 17px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: #fa824b;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
 }
 
 .btn-scape {
@@ -124,7 +126,6 @@ form .btn-sec {
 .success-text {
   font-family: sans-serif;
   max-width: 800px;
-  
+
   font-size: 35px;
 }
-
